@@ -1,0 +1,7 @@
+# WebBotAuth vs OpenBotAuth
+
+<table><thead><tr><th width="219">Aspect</th><th width="217">WebBotAuth</th><th>OpenBotAuth</th></tr></thead><tbody><tr><td>Intent Declaration</td><td>Out of scope</td><td>Built in </td></tr><tr><td>Infra Dependency</td><td>Cloudflare Lock-in</td><td>No Lock-in</td></tr><tr><td>Selective Disclosure</td><td>NA</td><td>WASM based attenuation</td></tr><tr><td>Signer </td><td>Managed by Cloudflare</td><td>Managed or Self Hosted</td></tr><tr><td>Registry Model</td><td>Managed by Cloudflare</td><td>DNS Discovery</td></tr></tbody></table>
+
+In August 2025, [Cloudflare blocked Perplexity AI](https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/) for circumventing robots.txt restrictions and using stealth crawling tactics—allegations Perplexity vehemently disputed. While Cloudflare had defensible technical grounds for the action, the incident exposed a deeper structural problem: a single infrastructure provider wielding unilateral power to delist AI companies from verified bot programs and deploy blocking rules across 2.5 million websites. This level of centralized control contradicts the foundational principles of an open internet.&#x20;
+
+Large organizations like OpenAI, Amazon, and Microsoft have the engineering resources to maintain verified bot registrations, negotiate custom partnerships, and navigate complex vendor relationships—tools simply unavailable to independent developers, researchers, or startups building the next generation of AI agents.&#x20;
