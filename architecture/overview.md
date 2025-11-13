@@ -1,6 +1,6 @@
-# Architecture
+# Overview
 
-<figure><img src=".gitbook/assets/mermaid-diagram-2025-11-12-005339.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mermaid-diagram-2025-11-12-005339.png" alt=""><figcaption></figcaption></figure>
 
 This sequence diagram shows:
 

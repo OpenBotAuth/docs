@@ -1,13 +1,13 @@
 # Table of contents
 
 * [OpenBotAuth](README.md)
+* [TL;DR](tl-dr.md)
 * [WebBotAuth vs OpenBotAuth](webbotauth-vs-openbotauth.md)
 * [Usecases](usecases.md)
 * [Expected Outcomes](expected-outcomes.md)
 * [Goals](goals.md)
 * [Open Research Problems](open-research-problems.md)
-* [Architecture](architecture.md)
 
-## Registry
+## Architecture
 
-* [KeyID Declaration](registry/keyid-declaration.md)
+* [Overview](architecture/overview.md)
