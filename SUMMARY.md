@@ -11,3 +11,4 @@
 ## Architecture
 
 * [Overview](architecture/overview.md)
+* [Registration Phase](architecture/registration-phase.md)

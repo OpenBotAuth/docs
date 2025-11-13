@@ -4,6 +4,10 @@
 
 **The new AdSense of the AI era.** A blogger posting about their Eurotrip should be able to earn their fair share from LLMs—granting full-text access to verified agents who agree to licensing terms while blocking or rate-limiting unauthorized scrapers. With OpenBotAuth, content creators can finally track who accesses their work, enforce usage rights, and build monetization models around legitimate AI agent access.
 
+### MCP-UI Pay-Per-Component
+
+Component library creators need to monetize premium resources while preventing unauthorized scraping by unverified agents. OpenBotAuth enables MCP servers to verify agent identity before serving components, allowing creators to charge per-component-fetch, enforce usage limits, and build sustainable monetization without CDN intermediaries collecting platform fees.
+
 ### E-commerce
 
 Amazon probably does not want Walmart agents on their website. However, crawling is a major use case in e-commerce to offer competitive pricing to users. We want a world where Google agents do not see different pricing than Amazon agents. OpenBotAuth enables transparent, verifiable agent identity so competitive price monitoring happens on equal terms—no preferential treatment based on corporate partnerships, just authenticated access with clear intent declaration.
