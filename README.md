@@ -1,12 +1,12 @@
 ---
-description: Auth for the new users of the internet
+description: Open infra for the content creators
 cover: .gitbook/assets/generated-image.png
 coverY: 0
 ---
 
 # OpenBotAuth
 
-OpenBotAuth (pronounced Open Bot Auth) provides an <mark style="color:$warning;">open</mark>, cryptographically-verifiable framework that allows agents to prove their authorization without a CDN lock-in. This specification defines how bots/agents can present signed credentials, how services can verify these credentials at the edge or origin, and how authorization scopes can be dynamically enforced based on bot's intent. By establishing an open standard, OpenBotAuth enables interoperability across CDNs, gives developers control over their authentication infrastructure, and allows origin sites to make informed decisions about automated traffic without relying on proprietary fingerprinting or centralized verification services.
+OpenBotAuth is a CDN-agnostic origin server that provides access control and payment rails for websites to monetize authenticated bots and agents. Rather than relying on proprietary fingerprinting or centralized verification services, OpenBotAuth creates an open ecosystem where any bot adhering to Web Bot Auth can prove its identity, and any website can verify credentials and collect payments at the edge or origin.
 
 We'd love your contribution to the open problems. Please visit our [Research Page](https://openbotauth.discourse.group/) or take a quick look at [Open Research Problems](https://docs.openbotauth.org/open-research-problems).&#x20;
 

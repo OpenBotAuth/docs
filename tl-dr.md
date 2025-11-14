@@ -4,6 +4,8 @@ description: ELI5 for Open Bot Auth
 
 # TL;DR
 
+An easy website plugin that lets you authenticate bots and charge them for accessing your content.
+
 <figure><img src=".gitbook/assets/TLDR (1).png" alt=""><figcaption></figcaption></figure>
 
 ### What is an "Origin"?
@@ -26,7 +28,7 @@ Here's how it works:
 
 ### Why is this cool?&#x20;
 
-With direct verification, you can set up **pay-per-crawl** - without CDN as intermediary for everything.&#x20;
+Because you get to define custom pricing and payment terms without relying on CDN providers as payment intermediaries.
 
 Refer to [Usecases](usecases.md) to read more on different industry use cases.&#x20;
 

@@ -2,7 +2,6 @@
 
 * [OpenBotAuth](README.md)
 * [TL;DR](tl-dr.md)
-* [WebBotAuth vs OpenBotAuth](webbotauth-vs-openbotauth.md)
 * [Usecases](usecases.md)
 * [Expected Outcomes](expected-outcomes.md)
 * [Goals](goals.md)
@@ -12,3 +11,4 @@
 
 * [Overview](architecture/overview.md)
 * [Registration Phase](architecture/registration-phase.md)
+* [Intent Vocab](architecture/intent-vocab.md)
