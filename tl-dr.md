@@ -4,7 +4,13 @@ description: ELI5 for Open Bot Auth
 
 # TL;DR
 
-An easy website plugin that lets you authenticate bots and charge them for accessing your content.
+OpenBotAuth proves your ownership of the agent to the website and allows your agent to pay on your behalf for consuming content. Once you create your profile on the Registry, you can create agent certificates tied to your identity.&#x20;
+
+### Why is this cool?&#x20;
+
+1. Developers don't have to keep buying websites to hosts JWKS (or[ Signature Agent Cards](https://thibmeu.github.io/http-message-signatures-directory/draft-meunier-webbotauth-registry.html#name-signature-agent-card)) or worry about tracking key rotation.
+2. Identities are not tied to a CDN, ie, identities are open to the whole  web, if they choose to adopt it.&#x20;
+3. Websites transact directly with the agent owner rather than middlemen. Content creators maintain control over pricing and access rights.&#x20;
 
 <figure><img src=".gitbook/assets/TLDR (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,9 +32,7 @@ Here's how it works:
 2. The bot sends this signature directly to your origin server (example.com) along with their request (we call this intent).​​
 3. Your origin server verifies the signature​
 
-### Why is this cool?&#x20;
-
-Because you get to define custom pricing and payment terms without relying on CDN providers as payment intermediaries.
+### What's new in the extension
 
 Refer to [Usecases](usecases.md) to read more on different industry use cases.&#x20;
 

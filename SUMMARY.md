@@ -2,13 +2,18 @@
 
 * [OpenBotAuth](README.md)
 * [TL;DR](tl-dr.md)
-* [Usecases](usecases.md)
-* [Expected Outcomes](expected-outcomes.md)
 * [Goals](goals.md)
+* [Expected Outcomes](expected-outcomes.md)
 * [Open Research Problems](open-research-problems.md)
+* [Usecases](usecases.md)
 
 ## Architecture
 
 * [Overview](architecture/overview.md)
+* [OpenBotRegistry](architecture/openbotregistry.md)
 * [Registration Phase](architecture/registration-phase.md)
 * [Intent Vocab](architecture/intent-vocab.md)
+
+## contributors
+
+* [Say Hi!](contributors/say-hi.md)
