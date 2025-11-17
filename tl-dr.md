@@ -6,6 +6,8 @@ description: ELI5 for Open Bot Auth
 
 OpenBotAuth proves your ownership of the agent to the website and allows your agent to pay on your behalf for consuming content. Once you create your profile on the Registry, you can create agent certificates tied to your identity.&#x20;
 
+OpenBotRegistry is an attempt to tie your already verified social idenitites to agents, making verification process fast and accessible.&#x20;
+
 ### Why is this cool?&#x20;
 
 1. Developers don't have to keep buying websites to hosts JWKS (or[ Signature Agent Cards](https://thibmeu.github.io/http-message-signatures-directory/draft-meunier-webbotauth-registry.html#name-signature-agent-card)) or worry about tracking key rotation.
