@@ -1,9 +1,9 @@
 # Overview
 
-<figure><img src="../.gitbook/assets/mermaid-diagram-2025-11-12-005339.png" alt=""><figcaption></figcaption></figure>
-
 This sequence diagram shows:
 
-* **Registration phase**: Bot operator publishes keys to DNS, explorers can independently verify
-* **Request phase**: Bot signs request, origin verifies via Explorer, policy engine applies scoping
-* **Three outcomes**: Full/partial access, rate-limit for anonymous bots, or denied based on authentication and intent
+<figure><img src="../.gitbook/assets/mermaid-diagram-2025-11-16-175938.png" alt=""><figcaption></figcaption></figure>
+
+* **Registration Phase**: Bot operator publishes signature-agent card to OpenBotRegistry
+* **Request Phase**: Bot signs HTTP request with private key; origin server queries OpenBotRegistry directly for the signature-agent card to get public key
+* **Verification**: Origin server validates signature using public key from agent card, then policy engine evaluates intent and scopes
