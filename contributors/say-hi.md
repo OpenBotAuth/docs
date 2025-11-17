@@ -1,5 +1,5 @@
 # Say Hi!
 
-Gaurav Shukla&#x20;
+Gaurav Shukla - [Github](https://github.com/runnerelectrode), [X](https://x.com/RunnerElektrode)
 
-Hammad Tariq
+Hammad Tariq - [Github](https://github.com/hammadtq), [X](https://x.com/hammadtariq)
