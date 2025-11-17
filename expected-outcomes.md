@@ -1,9 +1,5 @@
 # Expected Outcomes
 
-#### Friction Free Crawling
-
-Crawler bots from big companies like OpenAI require friction-free authentication paths that allow their compliant bots to access sites without solving CAPTCHAs or circumventing security measures.
-
 #### Non-Spoofable Identity
 
 The specification must provide non-repudiable proof of bot identity and actions, creating a verifiable record that can serve as legal evidence when disputes arise.
