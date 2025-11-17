@@ -32,7 +32,5 @@ Here's how it works:
 2. The bot sends this signature directly to your origin server (example.com) along with their request (we call this intent).​​
 3. Your origin server verifies the signature​
 
-### What's new in the extension
-
 Refer to [Usecases](usecases.md) to read more on different industry use cases.&#x20;
 

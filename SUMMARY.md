@@ -6,12 +6,12 @@
 * [Expected Outcomes](expected-outcomes.md)
 * [Open Research Problems](open-research-problems.md)
 * [Usecases](usecases.md)
+* [FAQ](faq.md)
 
 ## Architecture
 
 * [Overview](architecture/overview.md)
 * [OpenBotRegistry](architecture/openbotregistry.md)
-* [Registration Phase](architecture/registration-phase.md)
 
 ## contributors
 
