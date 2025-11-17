@@ -1,24 +1,24 @@
+---
+description: Some jibber jabber on the future of open bot auth
+---
+
 # Usecases
+
+### Beloved E-Commerce
+
+Amazon probably does not want Walmart agents on their website. We envision a world where Google agents do not see different pricing than Amazon agents. Recently, [Shopify](https://chrisleverseo.com/blog/how-to-fix-shopify-crawl-issues-in-screaming-frog-and-sitebulb-using-web-bot-auth/) released an independent implementation of Web Bot Auth to whitelist their SEO crawlers. The ability to allow specific users in a fast lane so they don't hit 429 error is powerful for merchants.&#x20;
 
 ### Publishers and Bloggers
 
-**The new AdSense of the AI era.** A blogger posting about their Eurotrip should be able to earn their fair share from LLMs—granting full-text access to verified agents who agree to licensing terms while blocking or rate-limiting unauthorized scrapers. With OpenBotAuth, content creators can finally track who accesses their work, enforce usage rights, and build monetization models around legitimate AI agent access.
+As a blogger, I'm happy to get crawlers on my website, as it boosts visibility. However, the only thing that worked for bloggers is Google Adsense and now with deteriorating web traffic, a blogger posting about their eurotrip should be able to earn their fair share from LLMs. With OpenBotAuth, content creators can finally track who accesses their work, enforce usage rights, and build monetization models around legitimate AI agent access.
 
-### MCP-UI Pay-Per-Component
+### Financial Services
 
-Component library creators need to monetize premium resources while preventing unauthorized scraping by unverified agents. OpenBotAuth enables MCP servers to verify agent identity before serving components, allowing creators to charge per-component-fetch, enforce usage limits, and build sustainable monetization without CDN intermediaries collecting platform fees.
-
-### E-commerce
-
-Amazon probably does not want Walmart agents on their website. However, crawling is a major use case in e-commerce to offer competitive pricing to users. We want a world where Google agents do not see different pricing than Amazon agents. OpenBotAuth enables transparent, verifiable agent identity so competitive price monitoring happens on equal terms—no preferential treatment based on corporate partnerships, just authenticated access with clear intent declaration.
+Another heavy user of AI products. This industry has a lot of legal requirements around authenticated data sources. Furthermore, they want ot know if the client connecting to the servers is compliant and follow specific standards. This can be solved with a whitelisted registry for financial markets in the OpenBotRegistry directly.&#x20;
 
 ### Travel
 
 Travel booking agents verify their identity to search flights, hotels, and rental cars across multiple providers. OpenBotAuth enables travel sites to offer preferential API-like access to authenticated agents while protecting against price scraping and inventory hoarding by malicious bots.
-
-### Investment
-
-Financial research agents prove their identity to access market data, company filings, and analyst reports. Investment platforms can ensure compliance by tracking which agents access sensitive data and for what declared purpose (research vs training).
 
 ### Human Trafficking Prevention
 

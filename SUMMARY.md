@@ -12,7 +12,6 @@
 * [Overview](architecture/overview.md)
 * [OpenBotRegistry](architecture/openbotregistry.md)
 * [Registration Phase](architecture/registration-phase.md)
-* [Intent Vocab](architecture/intent-vocab.md)
 
 ## contributors
 
