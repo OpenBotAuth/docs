@@ -1,5 +1,5 @@
 ---
-description: Github For Agents Social Identities
+description: Github For Agent Social Identity
 cover: .gitbook/assets/generated-image.png
 coverY: 0
 ---
