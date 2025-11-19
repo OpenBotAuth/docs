@@ -4,9 +4,9 @@ description: ELI5 for Open Bot Auth
 
 # TL;DR
 
-If everyone is gonna have a [dedicated GPU](https://www.techradar.com/pro/you-really-want-every-person-to-have-their-own-dedicated-gpu-openai-becomes-nvidias-biggest-cheerleader-as-its-president-calls-for-10-billion-gpu-bonanza-but-no-mention-of-the-petawatt-electricity-requirement-these-will-command) in future, then quite possibly, there will be 1000s of agents on this GPU. There's no way to give them your identity today.&#x20;
+If everyone is gonna have a [dedicated GPU](https://www.techradar.com/pro/you-really-want-every-person-to-have-their-own-dedicated-gpu-openai-becomes-nvidias-biggest-cheerleader-as-its-president-calls-for-10-billion-gpu-bonanza-but-no-mention-of-the-petawatt-electricity-requirement-these-will-command) in future, then quite possibly, there will be 1000s of agents on this GPU. There's no way to delegate them your identity today.&#x20;
 
-OpenBotAuth proves your ownership of the agent to the website and allows your agent to pay on your behalf for consuming content. Once you create your profile on the Registry, you can create agent certificates tied to your identity.&#x20;
+OpenBotAuth proves your ownership of the agent to the website and allows your agent to pay on your behalf for consuming content. Once you create your profile on the Registry, you can create agent signature cards tied to your identity.&#x20;
 
 OpenBotRegistry is an attempt to tie your already verified social idenitites to agents, making verification process fast and accessible.&#x20;
 
