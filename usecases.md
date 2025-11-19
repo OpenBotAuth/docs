@@ -16,6 +16,10 @@ As a blogger, I'm happy to get crawlers on my website, as it boosts visibility. 
 
 Another heavy user of AI products. This industry has a lot of legal requirements around authenticated data sources. Furthermore, they want ot know if the client connecting to the servers is compliant and follow specific standards. This can be solved with a whitelisted registry for financial markets in the OpenBotRegistry directly.&#x20;
 
+### Agentic Login
+
+Agents often get stuck on login pages, as those were made for the human. As less and less traffic gets redirected to websites, we need new ways to authenticate users of the web.
+
 ### Travel
 
 Travel booking agents verify their identity to search flights, hotels, and rental cars across multiple providers. OpenBotAuth enables travel sites to offer preferential API-like access to authenticated agents while protecting against price scraping and inventory hoarding by malicious bots.
