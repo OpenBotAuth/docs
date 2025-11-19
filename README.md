@@ -1,14 +1,18 @@
 ---
-description: Pronounced Open Bot Auth or OBA in short
+description: Github For Agents Social Identities
 cover: .gitbook/assets/generated-image.png
 coverY: 0
 ---
 
 # OpenBotAuth
 
-OpenBotAuth is a way for agents to browse the internet on their owners' behalf. Written as an extension to Web Bot Auth, it hosts OpenBotRegistry to curate human <> agent identities and offers origin server plugins for websites to identity and monetize agentic movements. There's no CDN lock-in and the directory can be used by other origin server implementations to identify agents.&#x20;
+OpenBotAuth is an open registry where developers store, manage, and delegate agent identities so agents can access the web without triggering bot detection. Agents built with any framework like Langchain, OpenAI, Mastra, etc. can be registered and tracked without CDN lock-in.
+
+Publishers using the registry can block unverified scrapers and monetize legitimate agent traffic without proxy middlemen or vendor lock-in.
+
+OpenBotAuth implements an extension to Web Bot Auth, an open standard being developed at the IETF for cryptographic agent authentication using HTTP Message Signatures.
 
 We'd love your contribution to the open problems. Please visit our [Research Page](https://openbotauth.discourse.group/) or take a quick look at [Open Research Problems](https://docs.openbotauth.org/open-research-problems).&#x20;
 
-If you haven't already, create an account on the OpenBotRegistry.&#x20;
+If you haven't already, create an account on the [OpenBotRegistry](https://openbotauth.org/login).&#x20;
 
