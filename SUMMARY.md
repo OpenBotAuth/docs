@@ -7,6 +7,7 @@
 * [Open Research Problems](open-research-problems.md)
 * [Usecases](usecases.md)
 * [FAQ](faq.md)
+* [WBA IETF Group Archive](https://mailarchive.ietf.org/arch/browse/web-bot-auth/?)
 
 ## Architecture
 
