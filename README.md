@@ -1,5 +1,5 @@
 ---
-description: Open registry for pay-per-crawl without CDN lock-in
+description: Social Registry for Pay-Per-Crawl using Web Bot Auth
 cover: .gitbook/assets/generated-image.png
 coverY: 0
 ---
