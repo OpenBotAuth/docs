@@ -1,5 +1,5 @@
 ---
-description: Github For Agent Social Identity
+description: Open registry for pay-per-crawl over web bot auth
 cover: .gitbook/assets/generated-image.png
 coverY: 0
 ---
