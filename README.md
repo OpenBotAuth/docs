@@ -1,16 +1,14 @@
 ---
-description: Open registry for pay-per-crawl over web bot auth
+description: Open registry for pay-per-crawl without CDN lock-in
 cover: .gitbook/assets/generated-image.png
 coverY: 0
 ---
 
 # OpenBotAuth
 
-OpenBotAuth is an open registry where developers store, manage, and delegate agent identities so agents can access the web without triggering bot detection. Agents built with any framework like Langchain, OpenAI, Mastra, etc. can be registered and tracked without CDN lock-in.
+OpenBotAuth enables agents to access the web without triggering bot detection. Developers can host their Agent Identities for Web Bot Auth on the registry, skipping buying a domain, DNS verification or identity verification with a CDN. Compatible with browsers like BrowserBase, Onkernel, AgentCore, and agent frameworks like Langchain, OpenAI, Mastra, etc.&#x20;
 
-Publishers using the registry can block unverified scrapers and monetize legitimate agent traffic without proxy middlemen or vendor lock-in.
-
-OpenBotAuth implements an extension to Web Bot Auth, an open standard being developed at the IETF for cryptographic agent authentication using HTTP Message Signatures.
+Publishers using the registry can block unverified scrapers and monetize legitimate agent traffic without proxy middlemen or vendor lock-in. We've a WordPress plugin available today, with other platform support in the works.&#x20;
 
 We'd love your contribution to the open problems. Please visit our [Research Page](https://openbotauth.discourse.group/) or take a quick look at [Open Research Problems](https://docs.openbotauth.org/open-research-problems).&#x20;
 
