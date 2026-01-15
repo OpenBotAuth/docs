@@ -32,6 +32,11 @@
 * [Docker](proxy/docker.md)
 * [GitHub Container Registry](proxy/ghcr.md)
 
+## Plugins
+
+* [Overview](plugins/README.md)
+* [WordPress](plugins/wordpress.md)
+
 ## Contributors
 
 * [Say Hi!](contributors/say-hi.md)
