@@ -14,6 +14,19 @@
 * [Overview](architecture/overview.md)
 * [OpenBotRegistry](architecture/openbotregistry.md)
 
-## contributors
+## SDKs
+
+* [Overview](sdks/README.md)
+* [Node.js / TypeScript](sdks/nodejs.md)
+* [Python](sdks/python.md)
+
+## Proxy
+
+* [Overview](proxy/README.md)
+* [NPM / CLI](proxy/npm.md)
+* [Docker](proxy/docker.md)
+* [GitHub Container Registry](proxy/ghcr.md)
+
+## Contributors
 
 * [Say Hi!](contributors/say-hi.md)
