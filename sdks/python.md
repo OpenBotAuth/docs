@@ -212,7 +212,7 @@ from openbotauth_verifier import OpenBotAuthASGIMiddleware
 app.add_middleware(
     OpenBotAuthASGIMiddleware,
     verifier_url="https://verifier.openbotauth.org/verify",  # optional
-    mode="observe",  # or "require-verified"
+    require_verified=False,  # True to enforce verification
     timeout_s=5.0    # optional
 )
 ```
@@ -225,7 +225,7 @@ from openbotauth_verifier.middleware.wsgi import OpenBotAuthWSGIMiddleware
 app.wsgi_app = OpenBotAuthWSGIMiddleware(
     app.wsgi_app,
     verifier_url="https://verifier.openbotauth.org/verify",  # optional
-    mode="observe",  # or "require-verified"
+    require_verified=False,  # True to enforce verification
     timeout_s=5.0    # optional
 )
 ```
@@ -276,7 +276,7 @@ All verification requests have a configurable timeout (default 5 seconds). On ti
 All requests pass through regardless of verification status:
 
 ```python
-app.add_middleware(OpenBotAuthASGIMiddleware, mode="observe")
+app.add_middleware(OpenBotAuthASGIMiddleware, require_verified=False)
 ```
 
 ### Require-Verified Mode
@@ -284,7 +284,7 @@ app.add_middleware(OpenBotAuthASGIMiddleware, mode="observe")
 Returns 401 for unsigned or failed verification:
 
 ```python
-app.add_middleware(OpenBotAuthASGIMiddleware, mode="require-verified")
+app.add_middleware(OpenBotAuthASGIMiddleware, require_verified=True)
 ```
 
 ## Error Handling
@@ -331,7 +331,7 @@ app = FastAPI()
 app.add_middleware(
     OpenBotAuthASGIMiddleware,
     verifier_url="https://your-verifier.example.com/verify",
-    mode="observe",
+    require_verified=False,
     timeout_s=3.0
 )
 

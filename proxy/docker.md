@@ -41,7 +41,7 @@ Configure via environment variables:
 | `OBA_VERIFIER_URL` | `https://verifier.openbotauth.org/verify` | Verifier endpoint |
 | `OBA_MODE` | `observe` | `observe` or `require-verified` |
 | `OBA_TIMEOUT_MS` | `5000` | Verifier timeout (ms) |
-| `OBA_PROTECTED_PATHS` | (none) | Comma-separated protected paths |
+| `OBA_PROTECTED_PATHS` | `/protected` | Comma-separated protected paths |
 
 ## Usage Examples
 
