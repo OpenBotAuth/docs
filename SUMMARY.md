@@ -14,6 +14,11 @@
 * [Overview](architecture/overview.md)
 * [OpenBotRegistry](architecture/openbotregistry.md)
 
+## Crawlers
+
+* [Overview](crawlers/README.md)
+* [registry-signer Package](crawlers/registry-signer.md)
+
 ## SDKs
 
 * [Overview](sdks/README.md)
