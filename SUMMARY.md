@@ -14,6 +14,11 @@
 * [Overview](architecture/overview.md)
 * [OpenBotRegistry](architecture/openbotregistry.md)
 
+## Crawlers
+
+* [Overview](crawlers/README.md)
+* [registry-signer Package](crawlers/registry-signer.md)
+
 ## SDKs
 
 * [Overview](sdks/README.md)
@@ -26,6 +31,11 @@
 * [NPM / CLI](proxy/npm.md)
 * [Docker](proxy/docker.md)
 * [GitHub Container Registry](proxy/ghcr.md)
+
+## Plugins
+
+* [Overview](plugins/README.md)
+* [WordPress](plugins/wordpress.md)
 
 ## Contributors
 
