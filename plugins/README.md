@@ -6,7 +6,7 @@ OpenBotAuth provides plugins for popular content management systems, allowing pu
 
 | Plugin | Platform | Status |
 |--------|----------|--------|
-| [WordPress](wordpress.md) | WordPress 6.0+ | Available (manual install) |
+| [WordPress](wordpress.md) | WordPress 6.0+ | [Available on WordPress.org](https://wordpress.org/plugins/openbotauth/) |
 
 ## Why Use Plugins?
 
