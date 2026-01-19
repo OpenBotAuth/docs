@@ -19,26 +19,18 @@ The OpenBotAuth WordPress plugin enables content owners to control how AI agents
 
 ## Installation
 
-> **Note:** The plugin is currently under review at WordPress.org. For now, use manual installation.
+### Install from WordPress.org (Recommended)
 
-### Manual Installation
+1. Go to **WordPress Admin → Plugins → Add New**
+2. Search for **"OpenBotAuth"**
+3. Click **Install Now**
+4. Click **Activate**
 
-**Option 1: Download and Upload**
+Or install directly: [wordpress.org/plugins/openbotauth](https://wordpress.org/plugins/openbotauth/)
 
-1. Download the plugin from GitHub:
-   ```bash
-   git clone https://github.com/OpenBotAuth/openbotauth.git
-   cd openbotauth/plugins
-   zip -r wordpress-openbotauth.zip wordpress-openbotauth
-   ```
+### Manual Installation (Development)
 
-2. Upload via WordPress Admin:
-   - Go to **Plugins → Add New → Upload Plugin**
-   - Choose the `wordpress-openbotauth.zip` file
-   - Click **Install Now**
-   - Click **Activate**
-
-**Option 2: Copy to Plugins Directory**
+For development or testing the latest changes:
 
 ```bash
 # Clone the repository
@@ -192,9 +184,10 @@ add_action('openbotauth_payment_required', function($agent, $post, $price) {
 2. Log out of WordPress
 3. Check PHP error logs for verifier connection issues
 
-## Source Code
+## Links
 
-GitHub: [OpenBotAuth/openbotauth](https://github.com/OpenBotAuth/openbotauth/tree/main/plugins/wordpress-openbotauth)
+- **WordPress.org:** [wordpress.org/plugins/openbotauth](https://wordpress.org/plugins/openbotauth/)
+- **GitHub:** [OpenBotAuth/openbotauth](https://github.com/OpenBotAuth/openbotauth/tree/main/plugins/wordpress-openbotauth)
 
 ## License
 
